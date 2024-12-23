@@ -57,19 +57,19 @@ This is an assignment that is meant to display the creation of API for a Simplif
 
 ## Serializers
 
-### FlightSerializer
+### _FlightSerializer_
 Serializes all fields of the Flight model.
 
-### PassengerSerializer
+### _PassengerSerializer_
 Serializes all fields of the Passenger model and includes a nested FlightSerializer.
 
 ## Views/ViewSets
 
-### FlightViewSet
+### _FlightViewSet_
 - Handles CRUD operations for Flight model.
 - Implements pagination.
 
-### PassengerViewSet
+### _PassengerViewSet_
 - Handles CRUD operations for Passenger model.
 - Implements pagination.
 - Allows filtering passengers by flight number.
